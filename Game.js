@@ -32,7 +32,7 @@ play (){
   if(allPlayers !== undefined){
     var displayPosition = 130;
   for(var plr in allPlayers){
-    if(plr === "player"+playerIndex){
+    if(plr === "player"+player.index){
       fill ("red")
     }else{
       fill("black")
